@@ -1,69 +1,75 @@
-# Welcome to your Lovable project
+# **Budgetlyzer**
 
-## Project info
+## **📌 Overview**
+Budgetlyzer is an AI-powered budgeting tool designed for project-based businesses. It leverages **Payman AI’s multi-account feature** to help businesses efficiently track, analyze, and manage their project budgets in real-time.
 
-**URL**: https://lovable.dev/projects/dbaafc08-3b28-4585-90c8-653be3d553ae
+## **🚀 Features**
+- **Multi-Account Budget Tracking**: Automatically separates expenses for different projects.
+- **Real-Time Expense Monitoring**: AI-powered insights on spending trends and remaining budget.
+- **Automated Alerts**: Notifies users when a project is nearing its budget limit.
+- **Custom Reports & Analytics**: Generates financial summaries for better decision-making.
+- **Secure Transactions**: Utilizes Payman AI’s SDKs with human-in-the-loop safeguards.
 
-## How can I edit this code?
+## **💡 How It Works**
+1. **Connect Payman AI**: Integrate Payman’s multi-account system.
+2. **Set Up Projects**: Define budget limits for each project.
+3. **Track Transactions**: AI categorizes and monitors expenses in real-time.
+4. **Analyze & Optimize**: Get AI-driven financial insights to stay on track.
 
-There are several ways of editing your application.
+## **🛠 Tech Stack**
+- **Backend**: NodeJS / Python (using Payman AI SDK)
+- **Frontend**: React / Next.js (for dashboard visualization)
+- **Database**: PostgreSQL / Firebase
+- **AI Models**: OpenAI / Custom ML models for financial forecasting
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/dbaafc08-3b28-4585-90c8-653be3d553ae) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## **⚡ Getting Started**
+### **1. Clone the Repository**
+```bash
+ git clone https://github.com/your-username/budgetlyzer.git
+ cd budgetlyzer
 ```
 
-**Edit a file directly in GitHub**
+### **2. Install Dependencies**
+#### **For Node.js Backend**
+```bash
+ cd backend
+ npm install
+```
+#### **For Python Backend**
+```bash
+ cd backend
+ pip install -r requirements.txt
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### **3. Set Up Environment Variables**
+Create a `.env` file in the project root and add:
+```
+PAYMAN_API_KEY=your_payman_api_key
+DATABASE_URL=your_database_url
+```
 
-**Use GitHub Codespaces**
+### **4. Run the Application**
+#### **For Node.js Backend**
+```bash
+ npm start
+```
+#### **For Python Backend**
+```bash
+ python app.py
+```
+#### **For Frontend**
+```bash
+ cd frontend
+ npm start
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## **🎯 Use Cases**
+✅ **Freelancers** managing multiple client projects with separate budgets.  
+✅ **Startups & Enterprises** handling multi-department financial tracking.  
+✅ **NGOs & Grants** monitoring funds across different initiatives.  
 
-## What technologies are used for this project?
+## **📜 License**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dbaafc08-3b28-4585-90c8-653be3d553ae) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## **🤝 Contributing**
+We welcome contributions!
