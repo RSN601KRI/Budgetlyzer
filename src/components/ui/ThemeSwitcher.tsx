@@ -1,11 +1,10 @@
-
 import React, { useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Moon, Sun } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/hooks/useTheme';
 
-const ThemeSwitcher = () => {
+export function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
   const isDark = theme === 'dark';
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -116,6 +115,4 @@ const ThemeSwitcher = () => {
       </div>
     </Button>
   );
-};
-
-export default ThemeSwitcher;
+}
